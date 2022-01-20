@@ -22,3 +22,7 @@ function loginpage(){
     window.open("login.html");
     close();
 }
+
+function toppage(){
+    window.scrollTo(0,0);
+}

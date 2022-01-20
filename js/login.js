@@ -28,9 +28,10 @@ function studvalid(){
 
 function inputtxta(){
     var name_stud=$("#txtname").val();
+    var name_stud2=name_stud.substring(0,1);
 
     if(name_stud!=""){
-        document.getElementById("txtao").innerText="Welcome "+name_stud+"";
+        document.getElementById("txtao").innerText="Welcome "+name_stud2+"";
     }
 }
 
