@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>White Brush Practices</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="https://demos.jquerymobile.com/1.4.0/theme-classic/theme-classic.css" />
+    <script type='text/javascript' src='https://code.jquery.com/jquery-1.6.4.js'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/link.js"></script>
+</head>
+
+<body>
+    <div data-role="page" id="pg1">
+        <div data-role="header" data-theme="" class="ui-header">
+            <div data-role="collapsible" data-expanded-icon="bars" data-collapsed-icon="bars">
+                <h3>Menu</h3>
+                <ul data-role="listview">
+                    <li><a href="#" onclick="homepage()">Home</a></li>
+                    <li><a href="#" onclick="aboutpage()">About</a></li>
+                    <li><a href="#" onclick="contactpage()">Contact Information</a></li>
+                    <li><a href="#" onclick="signuppage()">Sign up</a></li>
+                    <li><a href="#" onclick="loginpage()">Log in</a></li>
+                </ul>
+            </div>
+            <h1>Prodigous</h1>
+        </div>
+        <div data-role="content" data-title="White Brush Practices">
+            <form action="" data-ajax="false" id="form">
+                <div class="slider">
+                    <!-- fade css -->
+                    <div class="myslide fade">
+                        <div class="txt">
+                            <h1>Your Future Begins Here</h1>
+                        </div>
+                        <img src="images/image1.jpg" class="car-images" />
+                    </div>
+
+                    <div class="myslide fade">
+                        <div class="txt">
+                            <h1>Interactive and Engaging Classes</h1>
+                        </div>
+                        <img src="images/image2.jpg" class="car-images" />
+                    </div>
+
+                    <div class="myslide fade">
+                        <div class="txt">
+                            <h1>Diverse Student Population</h1>
+                        </div>
+                        <img src="images/image3.jpg" class="car-images" />
+                    </div>
+
+                    <div class="myslide fade">
+                        <div class="txt">
+                            <h1>Graduates in all Work Forces</h1>
+                        </div>
+                        <img src="images/image4.jpg" class="car-images" />
+                    </div>
+
+                    <div class="myslide fade">
+                        <div class="txt">
+                            <h1>Confortable Classes</h1>
+                        </div>
+                        <img src="images/image5.jpg" class="car-images" />
+                    </div>
+                    <!-- /fade css -->
+
+                    <!-- onclick js -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <div class="dotsbox" style="text-align: center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                    </div>
+                    <!-- /onclick js -->
+                </div>
+                <script src="js/index.js"></script>
+            </form>
+        </div>
+        <div data-role="footer" class="ui-footer" data-position="fixed">
+            <h2> &copy; PRODIGIOUS COMMUNITY COLLEGE 2021</h2>
+            <script>
+                var date_now = new Date();
+                document.write(date_now);
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>

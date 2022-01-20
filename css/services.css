@@ -1,0 +1,27 @@
+.ui-content h1,h3,h2{
+    text-align:center;
+}
+
+h1{
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
+.no{
+    text-align:left;
+}
+
+.services-info{
+    border:1px solid #fff;
+    border-radius:10px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.ui-page{
+    background-image:linear-gradient(200deg,#b24bf3, #a020f0);
+}
+
+/* #topp{
+    display:none;
+} */

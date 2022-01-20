@@ -1,0 +1,41 @@
+.stud-info{
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+*{
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+}
+
+.label{
+    font-weight:bold;
+    font-size:18px;
+}
+
+.ui-page{
+    background-image:linear-gradient(200deg,#b24bf3, #a020f0);
+}
+
+.terms{
+    margin-top:20px;
+}
+
+.terms span{
+    margin-left:40px;
+}
+
+.gender-1 span{
+    margin-left:40px;
+}
+
+.gender-1{
+    display:block;
+}
+
+#error1,#error2,#error4,#error5,#error0,#error6, #error7,#error8,#error9,#error10, #error11,#error12,#error13, #error14,#error15{
+    color:#ff2800;
+    font-weight:none;
+}

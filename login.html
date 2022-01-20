@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>White Brush Practices</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="https://demos.jquerymobile.com/1.4.0/theme-classic/theme-classic.css" />
+    <script type='text/javascript' src='https://code.jquery.com/jquery-1.6.4.js'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script type="text/javascript" src="js/login.js"></script>
+    <script type="text/javascript" src="js/link.js"></script>
+</head>
+
+<body>
+    <div data-role="page" id="pg1">
+        <div data-role="header" data-theme="" class="ui-header">
+            <div data-role="collapsible" data-expanded-icon="bars" data-collapsed-icon="bars">
+                <h3>Menu</h3>
+                <ul data-role="listview">
+                    <li><a href="#" onclick="homepage()">Home</a></li>
+                    <li><a href="#" onclick="aboutpage()">About</a></li>
+                    <li><a href="#" onclick="contactpage()">Contact Information</a></li>
+                    <li><a href="#" onclick="signuppage()">Sign up</a></li>
+                    <li><a href="#" onclick="loginpage()">Log in</a></li>
+                </ul>
+            </div>
+            <h1>Prodigous</h1>
+        </div>
+        <div data-role="content" data-title="White Brush Practices">
+            <form action="" data-ajax="false" id="form" onsubmit="return studvalid(),loginuser()">
+                <div class="container">
+                    <div class="style-icon"><i class="bi bi-book-fill"></i></div>
+                    <h1>Login Form</h1>
+                    <hr id="hrhead">
+                    <div class="login-info">
+                        <span class="label">
+                            Full Name
+                            <span id="error1">  </span>
+                        </span>
+                        <input type="text" id="txtname" placeholder="Kian O'Connor" onchange="inputtxta()">
+                    </div>
+                    <div class="login-info">
+                        <span class="label">
+                            Username
+                            <span id="error2">  </span>
+                        </span>
+                        <input type="text" id="txt-uname" placeholder="student">
+                    </div>
+                    <div class="login-info">
+                        <span class="label">
+                            Password
+                            <span id="error3">  </span>
+                        </span>
+                        <input type="text" id="txtpassword">
+                    </div>
+                    <input type="submit" value="Login" id="btnsubmit">
+                    <textarea id="txtao"></textarea>
+                </div>
+            </form>
+        </div>
+        <div data-role="footer" class="ui-footer" data-position="fixed">
+            <h2> &copy; PRODIGIOUS COMMUNITY COLLEGE 2021</h2>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.content{
+    text-align:center;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h2{
+    text-align:center;
+}
+
+.ui-page{
+    background-image:linear-gradient(200deg,#b24bf3, #a020f0);
+}
+
+.img-styling{
+    width:100%;
+    height:400px;
+}
+
+.ui-table tbody tr td{
+    text-align:center;
+    font-weight:bold;
+    font-size:18px;
+}

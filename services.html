@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>White Brush Practices</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="https://demos.jquerymobile.com/1.4.0/theme-classic/theme-classic.css" />
+    <script type='text/javascript' src='https://code.jquery.com/jquery-1.6.4.js'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/services.css">
+    <script type="text/javascript" src="js/services.js"></script>
+    <script type="text/javascript" src="js/link.js"></script>
+</head>
+
+<body>
+    <div data-role="page" id="pg1">
+        <div data-role="header" data-theme="" class="ui-header">
+            <div data-role="collapsible" data-expanded-icon="bars" data-collapsed-icon="bars">
+                <h3 class="no">Menu</h3>
+                <ul data-role="listview">
+                    <li><a href="#" onclick="homepage()">Home</a></li>
+                    <li><a href="#" onclick="aboutpage()">About</a></li>
+                    <li><a href="#" onclick="contactpage()">Contact Information</a></li>
+                    <li><a href="#" onclick="signuppage()">Sign up</a></li>
+                    <li><a href="#" onclick="logoutt()">Log out</a></li>
+                </ul>
+            </div>
+            <h1>Prodigous</h1>
+        </div>
+        <div data-role="content" data-title="White Brush Practices">
+            <form action="" data-ajax="false" id="form">
+                <h1>Services</h1>
+                <h3>Prices for the first Semester</h3>
+                <hr/>
+                <div class="services-info">
+                    <h2>1. Management of Information Stystems</h2>
+                    <ul>
+                        <li>Communication I - $33,000</li>
+                        <li>Discrete Mathematics & Algebra - $40,000</li>
+                        <li>Fundamentals of Information Technology - $29,000</li>
+                        <lli>Fundamentals of Accounting- $33,000</lli>
+                        <li>Introduction to Management Information Systems-$25,000</li>
+                        <li>Introduction to Progrmming -$33,000</li>
+                        <li>Total  - $193,000</li>
+                    </ul>
+                </div>
+                <div class="services-info">
+                    <h2>2. Information Technology</h2>
+                    <ul>
+                        <li>Communication I - $33,000</li>
+                        <li>Discrete Mathematics & Algebra - $40,000</li>
+                        <li>Fundamentals of Information Technology - $29,000</li>
+                        <li>Introduction to Psychology 1-$20,000</li>
+                        <li>Introduction to Progrmming -$33,000</li>
+                        <li>Total  - $155,000</li>
+                    </ul>
+                </div>
+                <div class="services-info">
+                    <h2>3. Hospitality and Tourism</h2>
+                    <ul>
+                        <li>Communication I - $33,000</li>
+                        <li>Applied Mathematics - $35,000</li>
+                        <li>Fundamentals of Food Preparations - $32,500</li>
+                        <li>Introduction to Hospitality annd Tourism - $19,000</li>
+                        <li>Introduction to Management -$38,000</li>
+                        <li>Sanitation Safety and Hygiene - $40,000</li>
+                        <li>Total  - $197,500</li>
+                    </ul>
+                </div>
+                <div class="services-info">
+                    <h2>4. CAPE - Sciences</h2>
+                    <ul>
+                        <li>Communication Studies UNIT I - 42,000</li>
+                        <li>Physics UNIT I - $32,000</li>
+                        <li>Chemistry UNIT I - $32,000</li>
+                        <li>Pure Mathematics - $45,000</li>
+                        <li>Computer Science UNIT I - $50,000</li>
+                        <li>Total  - $201,000</li>
+                    </ul>
+                </div>
+                <input type="submit" value="Calculate Multiple Courses" id="btnsubmit" onclick="calcservices()">        
+            </form>
+        </div>
+        <div data-role="footer" class="ui-footer" data-position="fixed">
+            <h2> &copy; PRODIGIOUS COMMUNITY COLLEGE 2021</h2>
+        </div>
+    </div>
+</body>
+
+</html>
